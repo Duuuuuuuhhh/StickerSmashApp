@@ -1,0 +1,34 @@
+/* Configuração e Clone do Repositório GIT */
+git config --global user.name "Eduardo Simionato Nogueira"
+git config --global user.email edunogueira793@gmail.com
+git clone 
+
+Documentação ofical do Expo:
+docs.expo.dev
+
+Criar um projeto com React Native Expo
+1. Node.js
+2.Git
+3. Emulador Android (Android Studio)
+
+Criar um projeto:
+npx create-expo-app StickerSmash
+
+cd StickerSmash
+
+npx expo install react-dom react-native-web @expo/webpack-config
+
+
+Executar o projeto no navegador:
+npx expo start
+
+npx expo start --localhost --android
+
+
+/* Para executar o projeto */
+dotnet watch run
+
+/* Subindo o projeto no GIT*/
+git add .
+git commit -m "Descrever as alterações realizadas no projeto"
+git push
