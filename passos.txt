@@ -24,6 +24,9 @@ npx expo start
 
 npx expo start --localhost --android
 
+Para instalar o image picker
+npx expo install expo-image-picker
+
 
 /* Para executar o projeto */
 dotnet watch run
